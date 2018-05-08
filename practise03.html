@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>practise03</title>
+
+    <style>
+      fieldset{
+        width: 500px;
+      }
+
+      .info{
+        width: 350px;
+      }
+
+      h1{
+        color: blue;
+      }
+
+      h2{
+        color: purple;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <h1>A Simple Form</h1>
+    <h2>Form Fundamentals</h2>
+
+    <form id="customer_info">
+      <fieldset>
+        <legend>Customer Info</legend>
+
+        Name: <input class="info" type="text" name="name" placeholder="Enter your name"><br><br>
+        Telephone: <input class="info" type="number" name="telephone" placeholder="Pattern 1-234-567-8910"><br><br>
+        Email address: <input class="info" type="email" name="email" placeholder="Enter your email address"><br><br>
+      </fieldset>
+
+
+    </form>
+
+    <br>
+
+    <form id="books">
+      <fieldset>
+        <legend>Books</legend>
+
+        <input id="book_name" type="text" name="book">Quantity(Maximum 5): <input type="number" name="quantity" min="0" max="5"><br><br>
+      </fieldset>
+
+
+    </form>
+
+    <br>
+    <input type="submit" name="submit" value="Submit">
+    <dd>2011 Acme United. All rights reserved</dd>
+
+  </body>
+</html>

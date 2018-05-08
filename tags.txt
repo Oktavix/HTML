@@ -1,0 +1,185 @@
+//html
+
+<q></q> - quotation marks
+<mark></mark> - highlights text
+<sub></sub> - subscripts text
+<del></del> - strikethrough text
+<blockquote></blockquote> - quotes a block of text
+<bdo dir="rtl" or dir="ltr"></bdo> - makes text go right to left (rtl) or left to right (ltr)
+<abbr title="....">Text</abbr> - shows what the abbreviation stands for
+<caption></caption> - adds a caption to a table
+<dl></dl> - description list
+<dt></dt> - defines a term in the description list
+<dd></dd> - describes a dt
+<cite></cite>
+<iframe src="" /> - new window inside the current window
+<address></address> - used for writing an address
+<article></article> - represents an article
+<aside></aside> - represents content that is usually put in the sidebar of a website
+<audio src="" controls autoplay loop muted preload="auto/metadata/none"></audio> - plays audio
+
+<button type="button/submit/reset" form="" onclick="" autofocus disabled></button>
+
+<code></code> - defines computer code
+<samp></samp> - defines sample output
+<kbd></kbd> - defines keyboard output
+<var></var> - defines a variable
+
+//////////////////////////////////
+
+form
+
+<select name="">
+    <option value="">Text</option> - drop down list
+</select>
+
+<textarea name=""></textarea>
+
+input types{text, number, button, submit, radio, checkbox, password}
+
+/////////////////////////////////
+
+<hr> - horizontal rule (line)
+
+/////////////////////////////////////end of html///////////////////////////////////////////////
+
+//css
+
+title - creates tooltip text
+alt - text to display when an image does not exist
+cite - shows where the quote is from
+target="_blank" - opens link in a new window
+type="A,a,1,I,i" - ordered list shows letters or numbers or roman numbers
+
+//background
+
+background-image: url("")				- sets background image
+background-image: url(""), url("")...   		- sets multiple background images (first one is on top)
+background-repeat: repeat-x / repeat-y / no-repeat	- sets repeat of the background image
+background-position: top right				- sets position of the background image
+background-size: x y					- sets size of background image
+background-size: cover					- sets background image to fit the page
+background-origin: 					- sets background image starting position
+
+
+
+//margin and padding
+margin / padding: 0 0 0 0;     -no commas in between
+
+//text-transform
+text-transform: uppercase / lowercase / capitalize / none / inherit -transforms the text
+text-indent: 0px	-indents the first line in a text
+
+//list style
+list-style-image: url("")   - sets image instead of bullets in unordered lists
+
+//display
+visibility: hidden  - makes the elemnt invisible
+display: none       - removes the element
+
+z-index: number     - assign stack position to the element (higher stack position means that
+		      the element will be in front of another element which has a lower stack
+		      position, negatives are allowed)
+
+overflow: hidden    - hides the text overflowing from the borders of an element
+overflow-x: scroll  - adds a horizontal scrollbar
+overflow-y: scroll  - adds a vertical scrollbar
+
+element1 > element2 	- selects elements2 that are immediate children of element1
+element1 + element2     - selects element2 that immediately follows element1 (bellow)
+element1 ~ element2     - selects elements2 that follow element1 (bellow)
+
+//pseudo-classes
+
+element1:first-child    - select element1 that is the first child of any element
+element1:focus		- select elements1 that are in focus (clicked or active)
+element1:first-line     - select the first line of element1
+element1:first-letter   - select the first letter of element1
+element1:before		- select the before of element1
+element1:after		- select the after of element1
+
+element1:hover		- on hover
+a:visited		- visited link
+a:link			- unvisited link
+a:active		- activated link
+
+//attribute selector
+element[attribute]	- selects elements with a specified attribute
+element[attribute~=""]	- selects elements with a specified text
+element[attribute^=""]  - selects elements starting with a specified text
+element[attribute$=""]  - selects elements ending with a specified text
+element[attribute*=""]  - selects elements containing the specified text anywhere in the text
+
+//colors
+color: rgb(0, 0, 0)						- sets rgb color
+color: rgba(0, 0, 0, 0) 					- sets rgba color
+
+//gradient
+background: linear-gradient(color1, color2)			- sets linear gradient
+background: linear-gradient(to bottom left, color1, color2) 	- sets linear gradient from top to bottom left
+background: linear-gradient(0deg, color1, color2) 		- sets linear gradient at an angle
+background: linear-gradient(color1, color2, color3...)		- sets linear gradient with multiple colors
+
+background: radial-gradient(color1, color2)			- sets radial gradient
+background: radial-gradient(shape, color1, color2)		- sets radial gradient with a shape
+
+//shadow effect
+text-shadow: x y						- sets text shadow
+text-shadow: x y blur color					- sets text shadow in color and adds blur radius
+text-shadow: x1, y1, x2 y2, ....				- sets mutliple text shadows
+
+box-shadow: x y							- sets box shadow
+
+//text
+text-overflow: ellipsis			- sets ellipsis on overflowing text (ellipsis - omission of words ...)
+word-wrap: break-word			- splits the word to prevent overflow
+word-wrap: break-all			- splits any two letters to prevent overflow
+
+@font-face{				- creates a web font
+    font-family: "";
+    src: url("");
+}
+
+//2D transforms
+transform : translate(x, y)			- translates element
+transform: rotate(0deg)				- rotates element
+transform: scale(0.5, 2)			- scales element
+transform: skew(0deg, 0deg)			- skews element
+transform: rotateX/rotateY/rotateZ(0deg)	- rotates element's x, y or z axis
+
+//transitions
+transition: width/height 0s			- creates an animated transition
+transition-timing-function: ease-in-out		- creates an ease in out animation
+transition-delay: 0s				- creates a transition delay
+transition: width/height 0s ease-in-out 0s	- w/h,time length, ease-in-out, delay
+
+//animation
+animation-name: example				- sets animation name (no quotation marks)
+animation-duration: 0s				- sets animation duration
+animation-delay: 0s				- sets animation delay
+animation-iteration-count: infinite		- sets animation to loop forever
+animation-direction: alternate			- sets animation play backwards when completed
+animation-timing-function: ease-in-out		- sets animation to ease in out
+
+@keyframes example{				- creates an animation
+    from{ background-color: red }
+    to{ background-color: blue }
+}
+
+@keyframes example{
+    0% { background-color: blue; }
+    50%{ background-color: red; }
+    100%{ background-color: yellow; }
+}
+
+/////////////////////////////////end of css/////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+

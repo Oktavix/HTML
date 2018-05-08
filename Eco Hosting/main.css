@@ -1,0 +1,303 @@
+*{
+  font-family: "Berlin Sans FB"
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+/* top start*/
+
+#top_info_bar{
+  background-color: #33373a;
+  color: white;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  bottom: 10px;
+}
+
+#top_info_bar_p{
+  position: relative;
+  left: 500px;
+}
+
+.SocialMediaIcons{
+  position: relative;
+  left: 800px;
+}
+
+.TopInfoBarIcon{
+  width: 15px;
+  height: 15px;
+  margin-left: 15px;
+}
+
+header{
+  position: relative;
+  top:15px;
+  left: 500px
+}
+
+#header_images{
+  position: relative;
+  bottom: 100px;
+  left: 700px;
+  width: 1000px;
+}
+
+.HeaderImage{
+  width: 80px;
+  height: 80px;
+}
+
+.HeaderImageText{
+  position: relative;
+  bottom: 40px;
+}
+
+.HeaderImageMainText{
+  color: #009b07;
+  font-size: 20pt;
+}
+
+.HeaderImageSupportText{
+  position: relative;
+  left: 30px;
+  bottom: 15px;
+}
+
+#header_title{
+  position: relative;
+  font-size: 40pt;
+  bottom: 10px;
+}
+
+#eco{
+  color: #009b07;
+}
+
+/* top end */
+
+/* navigation bar start */
+
+#nav_ban{
+  position: relative;
+  bottom: 120px;
+}
+
+#main_nav{
+  background-color: #009b07;
+  height: 80px;
+  width: 100%;
+}
+
+.MainNavItem{
+  color: white;
+  font-size: 20pt;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  padding-right: 70px;
+  left: 500px;
+  padding-top: 20px;
+}
+
+#client_area{
+  background-color: #33373a;
+  position: relative;
+  height: 60px;
+  left: 800px;
+  padding-left: 50px;
+}
+
+/* navigation bar end */
+
+/* banner start */
+
+#banner_image{
+  width: 100%;
+}
+
+#reseller_hosting{
+  color: white;
+  background-color: #009b07;
+  text-align: center;
+  position: relative;
+  left: 400px;
+  bottom: 1200px;
+  width: 400px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+#reseller_hosting_text_block{
+  position: relative;
+  right: 45px;
+}
+
+#nav_ban_view_details{
+  background-color: #33373a;
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 20pt;
+  width: 180px;
+  height: 50px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#ten_percent_off{
+  background-color: #009b07;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  left: 1200px;
+  bottom: 1600px;
+  width: 200px;
+  height: 200px;
+}
+
+#ten_percent_off_text{
+  color: white;
+  font-size: 20pt;
+  position: relative;
+  right: 35px;
+  top: 40px;
+}
+
+#ten_percent_off_ten{
+  font-size: 30pt;
+}
+
+#nine_ninety_nine{
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  left: 1500px;
+  bottom: 1400px;
+  width: 250px;
+  height: 250px;
+
+}
+
+#nine_ninety_nine_text{
+  font-size: 25pt;
+  position: relative;
+  right: 50px;
+  top: 50px;
+
+}
+
+#nine_ninety_nine_nine{
+  font-size: 35pt;
+}
+
+#reseller_hosting_bar{
+  background-color: white;
+  position: relative;
+  left: 400px;
+  bottom: 1800px;
+  width: 400px;
+}
+
+.ResellerHostingBarImage{
+  width: 40px;
+  height: 40px;
+}
+
+/* banner end */
+
+/* bar_bellow_banner start */
+
+#bar_bellow_banner{
+  background-color: #33373a;
+  text-align: center;
+  position: relative;
+  bottom: 1050px;
+  width: 100%;
+  height: 100px;
+  padding-top: 30px;
+}
+
+#bar_bellow_banner_domain_input{
+  width: 400px;
+  height: 60px;
+}
+
+#bar_bellow_banner_domain_type{
+  position: relative;
+  right: 4px;
+  width: 200px;
+  height: 66px;
+}
+
+#bar_bellow_banner_search_button{
+  background-color: green;
+  color: white;
+  position: relative;
+  right: 8px;
+  width: 100px;
+  height: 66px;
+}
+
+#bar_bellow_banner_3_upper{
+  color: white;
+  font-size: 25pt;
+  padding-left: 30px;
+}
+
+#bar_bellow_banner_3_lower{
+  color: white;
+  font-size: 15pt;
+  position: relative;
+  left: 360px;
+  bottom: 20px;
+}
+
+/* bar_bellow_banner end */
+
+/* bottom start */
+
+#bottom_h{
+  text-align: center;
+  font-size: 40pt;
+  position: relative;
+  bottom: 1000px;
+}
+
+#bottom_image{
+  position: relative;
+  left: 100px;
+  bottom: 800px;
+  width: 600px;
+  height: 700px;
+}
+
+#bottom_table{
+  position: relative;
+  left: 1000px;
+  bottom: 1400px;
+  width: 1000px;
+  height: 500px;
+}
+
+.BottomTableImage{
+  width: 150px;
+  height: 100px;
+}
+
+figcaption{
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+
+
+/* bottom end */

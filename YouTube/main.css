@@ -1,0 +1,167 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: black;
+}
+
+/* heaeder start */
+
+header{
+  background-color: grey;
+  border-bottom: solid black 1px;
+  width: 100%;
+  height: 50px;
+}
+
+#top_bar{
+  padding-top: 10px;
+}
+
+#top_bar_left input{
+  position: relative;
+  left: 25px;
+}
+
+#three_lines{
+  border-radius: 50%;
+  width: 25px;
+  height: 25px
+}
+
+#logo{
+  width: 100px;
+  height: 30px;
+  padding-left: 25px;
+}
+
+#top_bar_search{
+  position: relative;
+  left: 100px;
+}
+
+#top_bar_search_bar{
+  position: relative;
+  bottom: 10px;
+  width: 500px;
+  height: 30px;
+}
+
+#top_bar_search_button{
+  width: 30px;
+  height: 30px;
+}
+
+#top_bar_right{
+  position: relative;
+  left: 1080px;
+}
+
+#upload_button{
+  position: relative;
+  right: 90px;
+}
+
+#menu_button{
+  position: relative;
+  right: 60px;
+}
+
+#notifications_button{
+  position: relative;
+  right: 30px;
+}
+
+#profile_button{
+  position: relative;
+  bottom: 8px;
+}
+
+.TopBarRightButton{
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+/* header end */
+
+/* aside start */
+
+aside{
+  background-color: grey;
+  border-right: solid black 1px;
+  position: fixed;
+  width: 200px;
+  height: 100%;
+}
+
+aside input{
+  width: 25px;
+  height: 25px;
+}
+
+aside span{
+  color: white;
+  padding-left: 10px;
+}
+
+aside li{
+  padding-bottom: 10px;
+}
+
+aside hr{
+  float: left;
+  width: 198px;
+}
+
+aside ul{
+  list-style-type: none;
+}
+
+aside ul span{
+  color: white;
+  padding-bottom: 20px;
+}
+
+#subscriptions{
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 500px;
+}
+
+/* aside end */
+
+/* main start */
+
+main{
+  position: absolute;
+  left: 300px;
+  top: 300px;
+}
+
+main table caption{
+  color: white;
+  float: left;
+}
+
+main pre{
+  color: white;
+  padding-bottom: 20px;
+}
+
+main table tr{
+  padding-bottom: 20px;
+}
+
+main input{
+  width: 200px;
+  height: 100px;
+}
+
+figcaption{
+  color: white;
+}
+
+/* main end */
